@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: probe
-        run: 'echo "probe: r5-version=a"'
+        run: 'echo "probe: r5-version=b"'

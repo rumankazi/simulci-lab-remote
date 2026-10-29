@@ -5,4 +5,4 @@ runs:
   steps:
     - name: probe
       shell: bash
-      run: 'echo "probe: r9-action=a"'
+      run: 'echo "probe: r9-action=b"'

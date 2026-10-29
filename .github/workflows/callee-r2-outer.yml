@@ -13,6 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: probe
-        run: 'echo "probe: r2-outer=remote-a"'
+        run: 'echo "probe: r2-outer=remote-b"'
   inner:
     uses: ./.github/workflows/callee-r2-inner.yml

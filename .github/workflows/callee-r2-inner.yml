@@ -16,5 +16,5 @@ jobs:
       - id: s
         name: probe
         run: |
-          echo "marker=remote-a" >> "$GITHUB_OUTPUT"
-          echo "probe: r2-inner=remote-a"
+          echo "marker=remote-b" >> "$GITHUB_OUTPUT"
+          echo "probe: r2-inner=remote-b"

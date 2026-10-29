@@ -5,4 +5,4 @@ runs:
   steps:
     - name: probe
       shell: bash
-      run: 'echo "probe: r2-self-action=remote-a"'
+      run: 'echo "probe: r2-self-action=remote-b"'
